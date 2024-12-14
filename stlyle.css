@@ -1,0 +1,1422 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Home page and About us page navigation bar*/
+.aboutheader{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/about\ us\ image.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+/*Home page and about us page navigation bar*/
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/hero\ image\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainlogo {
+    width: 150px;
+}
+
+.navlinks {
+    flex: 1;
+    text-align: right;
+}
+
+.navlinks ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navlinks ul li {
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.navlinks ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navlinks ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: aqua;
+    display: block;
+    margin: auto;
+    transition: 0.1s;
+}
+
+.navlinks ul li:hover::after {
+    width: 100%;
+}
+/*service page, Doctor page, Consulting reservation page, and pharmacy page Navigation bar*/
+
+.headers {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.navbars {
+    display: flex;
+    padding: 0.5% 3%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(23, 23, 23);
+}
+
+.mainlogos {
+    width: 150px;
+}
+
+.navlinkss {
+    flex: 1;
+    text-align: right;
+}
+
+.navlinkss ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navlinkss ul li {
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.navlinkss ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navlinkss ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: aqua;
+    display: block;
+    margin: auto;
+    transition: 0.1s;
+}
+
+.navlinkss ul li:hover::after {
+    width: 100%;
+}
+
+
+/*--------------------------------------------------------*/
+
+
+.text-box {
+    width: 90%;
+    color: aquamarine;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+
+
+/* About us Hero section */
+
+.text-boxabout{
+    width: 90%;
+    color: aquamarine;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-boxabout h1{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+} 
+
+.text-boxabout p {
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/*Home page hero section*/
+
+.text-box h1 {
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.text-box h3 { 
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.button1 {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.button1:hover {
+    border: 1px solid rgb(96, 170, 185);
+    background: rgb(96, 170, 185);
+    transition: 1s;
+}
+
+/* Home page Introduction*/
+
+.intro {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.intro {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.intro p {
+    border-style: inset;
+    border-color: aqua;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping for small screens */
+}
+
+.card {
+    background-color: rgb(179, 228, 228);
+    width: 320px;
+    margin: 20px; 
+    border-radius: 15px;
+}
+
+.card-image {
+    background-color: beige;
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.hos-1 {
+    background-image: url(images/container\ image\ 1.webp);
+}
+
+.hos-2 {
+    background-image: url(images/container\ image\ 2.jpeg);
+}
+
+.hos-3 {
+    background-image: url(images/container\ image\ 3.jpg);
+}
+
+.card h2 {
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+}
+
+.card p {
+    padding: 10px;
+    text-align: center;
+    font: 50px;
+}
+
+.card a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.card:hover {
+    background-color: rgb(3, 22, 33);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.unorder1 ul,
+.unorder2 ul,
+.unorder3 ul {
+    list-style-type: disc; /* Use bullet points for the list */
+    padding-left: 70px; /* Add left padding to the list */
+    margin-top: 10px; /* Add margin on top of the list */
+    margin-bottom: 27.5px; /* Add margin on top of the list */
+    text-align: left;
+    font-size: 15px;
+}
+
+
+
+/* Footer */
+.footer {
+    background-color: #1a237e; 
+    color: #fff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+  
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+  
+.footer-left,
+.footer-nav,
+.footer-contact {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+  
+.footer-left h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+  
+.footer-left p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+  
+.footer-nav h4,
+.footer-contact h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+  
+.footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+  
+.footer-nav ul li {
+    margin-bottom: 8px;
+}
+  
+.footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+    text-decoration: underline;
+}
+  
+.footer-nav ul li a:hover {
+    color: #ddd;
+}
+  
+.footer-contact p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+  
+  /* Media Query for Responsive Design.Footer section */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-nav ul {
+      padding-left: 0;
+    }
+  }
+  
+
+  /*About us map table*/
+
+.branch-table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #91c2dd;
+
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+.imgmap{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.aboutmaps{
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    color: rgb(86, 101, 101);
+}
+
+.imagesmap{
+    width: 600px;
+    height: 400px;
+    display: block;
+    
+}
+
+/* About us table 2 */
+
+.table-2 {
+
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #938cd8;
+    margin-top: 50px;
+
+}
+
+.table-2 th, td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 20px;
+    text-align: left;
+    color: rgb(6, 6, 6);
+}
+
+
+.table-footer {
+    text-align: center;
+    color: #2b07e0;
+    font-style: italic;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 30px;
+
+}
+
+
+/*servies Page */
+
+.servicehero{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.service-herotext{
+    flex: 1;
+}
+
+.service-herotext h1{
+    font-size: 48px;
+    color: #003366;
+    line-height: 1.2;
+}
+
+.service-herotext p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #2e2e2e;
+}
+
+.servicimage{
+    flex: 1;
+    text-align: right;
+}
+
+.servicimage img{
+    width: 90%;
+    border-radius: 10px;
+}
+
+/*services page flex boxes*/
+
+.flexbox-section{
+    text-align: center;
+    padding: 40px;
+    background-color: #ffffff;
+
+}
+
+.flexbox-section h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.services-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service{
+    width: 22%;
+    background-color: rgb(157, 213, 237);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+.service:hover {
+    transform: scale(1.05);
+    background-color: #0dc219;
+
+}
+
+.service img{
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.service:hover img {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+.service p {
+    margin: 5px 0;
+}
+
+.register {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.register p {
+    font-size: 25px;
+    
+}
+
+.register button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #75ace3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* consulting reservation page */
+
+.consulting {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.doctor_option {
+    max-width: 300px; 
+    margin: 20px auto; 
+    padding: 10px;
+    background-color: #f5f5f5; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.doctor_option h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333; 
+    text-align: center; 
+}
+
+.doctor_option select {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333; 
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.doctor_option select:focus {
+    outline: none;
+    border-color: #007bff; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+main {
+    
+    text-align: center;
+}
+
+h2, h3, h4 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.payment-options {
+    margin: 20px 0;
+}
+
+.payment-options label {
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.credit-card-info {
+    margin: 20px 0;
+}
+
+.credit-card-info input {
+    display: block;
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #4b1b9d;
+    border-radius: 5px;
+}
+
+.form-buttons button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #2b07e0;
+    color: #eeeef2;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-buttons button:hover {
+    background-color: #a11313;
+}
+/* Keyframes for fade-in animation */
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Doctors Page */
+
+.doctorhero {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #c5d1d1;
+    margin-bottom: 30px;
+
+}
+
+.doctor-herotext {
+    flex: 1;
+
+}
+
+.doctor-herotext h1{
+    font-size: 48px;
+    color: #003366;
+    line-height: 1.2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.doctor-herotext p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #2e2e2e;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.doctorimage{
+    flex: 1;
+    text-align: right;
+}
+
+.doctorimage img{
+    width: 90%;
+    height: 120%;
+    border-radius: 10px;
+}
+
+/* Doctor page grid */
+
+.doctor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+
+.doctor-card {
+    text-align: center;
+    padding: 10px;
+    border: 3px solid #050571;
+    border-radius: 5px;
+}
+
+.doctor-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.doctor-card h3 {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+
+.doctor-card p {
+    color: #666;
+}
+
+
+/* Pharmecy page */
+
+.pharmacy-herotext h3 {
+    margin-top: 30px;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pharmacy-herotext p {
+    font-size: 1.19rem;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.headerpha {
+    background-color: #00800d;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .product-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .product-section h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #0a1b2d;
+  }
+  
+  .product-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    justify-content: center; 
+    padding: 20px;
+  }
+  
+  .product-card {
+    background: #d7d2d2;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px; 
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .product-card h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+    color: #054b97;
+  }
+  
+  .product-card p {
+    margin: 5px 0;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .product-card input {
+    width: 60%;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .add-to-cart {
+    padding: 10px 15px;
+    background: #00800d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .add-to-cart:hover {
+    background: #218838;
+  }
+  
+
+  /* order summary table */
+
+
+  .order_summary{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+  }
+
+
+  .ordertable {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 400px;
+    overflow: hidden;
+}
+
+.ordertable h2 {
+    background-color: #28a745;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin: 0;
+}
+
+.ordertable table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ordertable th,
+.ordertable td {
+    padding: 12px;
+    text-align: left;
+}
+
+.ordertable th {
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #ddd;
+}
+
+.ordertable td {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.ordertable .total {
+    font-weight: bold;
+    background-color: #fafafa;
+}
+
+.orderbutton {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.orderbutton button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.orderbutton button:hover {
+    background-color: #218838;
+}
+
+.ordertotal {
+    background-color: #7aa7d8;
+}
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .product-card {
+      width: 150px; /* Adjust card width for smaller screens */
+    }
+  
+    .product-card img {
+      height: 100px;
+    }
+  }
+
+/* Register page */
+
+.register-page {
+    text-align: center;
+    margin-top: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.login {
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+   
+}
+
+.rbutton {
+    margin-bottom: 30px;
+    background-color: #333;
+}
+
+/* Responsive design for mobile view . Home page */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navlinks {
+        width: 100%;
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .navlinks ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navlinks ul li {
+        display: block;
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .card {
+        width: 100%; 
+        margin: 10px 0;
+    }
+    .text-box{
+        margin-top: 50px;
+    }
+
+    .text-box h1 {
+        
+        font-size: 40px;
+    }
+
+    .text-boxabout h1{
+        font-size: 30px;
+    }
+
+    
+    .text-box h3 {
+       
+        font-size: 20px;
+    }
+
+    .text-box p {
+        font-size: 16px;
+    }
+
+    .text-boxabout p {
+        font-size: 16px;
+    }
+
+    
+}
+
+/* Responsove design for mobile view. About us page */
+
+@media (max-width: 768px) {
+    
+    /* adjest the header */
+
+    .aboutheader {
+        padding: 10px;
+    }
+
+    .text-boxabout h1 {
+        margin-top: 70px;
+        font-size: 20px;
+    }
+    
+    .text-boxabout p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    
+
+    /* Branch table */
+    .branch-table{
+        width: 80%;
+    }
+
+    .imgmap {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+        width: 90%;
+    }
+     
+    .imagesmap{
+        width: 100%;
+    }
+
+    /* service table */
+
+    .table-2 th, .table-2 td {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+
+}
+
+/* Responsove design for mobile view. services page */
+
+@media (max-width:768px) {
+
+    .navbars {
+        flex-direction: column;
+        align-items: flex-start;  
+    }
+
+    .navbars ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbars ul li {
+        margin-bottom: 10px;
+    }
+
+    .mainlogos {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /* hero section */
+
+    .servicehero {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .service-herotext h1 {
+        font-size: 32px;
+    }
+
+    .service-herotext p {
+        font-size: 16px;
+    }
+
+    .servicimage img {
+        width: 100%;
+    }
+
+    /* grid section */
+
+    .services-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    /* Register section */
+
+    .register p{
+        font-size: 20px;
+    }
+
+    .register button {
+        font-size: 16px;
+        padding: 12px 25px;
+        width: 150px;
+    }
+   
+}
+
+/* Responsove design for mobile view.  doctor page */
+@media (max-width:768px) {
+
+    .doctorhero {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .doctor-herotext h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .doctor-herotext p{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .doctorimage {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .doctorimage img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    /* Doctor grid section */
+
+    .doctor-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .doctor-card {
+        padding: 10px;
+        border: 2px solid #050571;
+    }
+
+    .doctor-card img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .doctor-card h3 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .doctor-card p {
+        font-size: 14px;
+    }
+}
+
+
+/* Responsove design for mobile view. consulting reservation page */
+
+@media (max-width:768px) {
+
+    .consulting {
+        margin-top: 50px;
+    }
+}
+
+/* Responsove design for mobile view. pharmacy page */
+
+@media (max-width:768px) {
+
+
+    .pharmacy-herotext h3 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .pharmacy-herotext p {
+        font-size: 1rem;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    /*Grid section*/
+
+    .p-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .pharmacy-items {
+        padding: 10px;
+    }
+
+    .pharmacy-items img {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .pharmacy-items p {
+        font-size: 0.9rem;
+    }
+
+    /* form section */
+
+    .pharmacy-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .p-form {
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .p-form label {
+        font-size: 0.9rem;
+    }
+
+    .p-form input, .p-form select {
+        padding: 8px;
+        margin-bottom: 10px;
+        font-size: 0.9rem;
+        width: 100%;
+    }
+}
+
+
+/* Responsove design for mobile view. Register page */
+
+@media (max-width:768px) {
+
+    .register-page {
+        margin-top: 30px;
+        padding: 10px;
+    }
+
+    .login {
+        width: 90%; 
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+        flex-direction: column; 
+    }
+
+    .form-group label {
+        font-size: 1rem;
+    }
+
+    .form-group input {
+        font-size: 1rem;
+    }
+
+    .rbutton {
+        width: 100%; 
+        padding: 12px;
+        margin-top: 20px;
+    }
+}
+
+
+
+/* checkout page */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  input, textarea, select, button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+
+
+
+/* thank you page*/
+
+
+  .thankyou-container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .thankyou-container h1 {
+    font-size: 3rem;
+    margin: 0 0 10px;
+    color: #fff;
+  }
+
+  .thankyou-container p {
+    font-size: 1.2rem;
+    margin: 10px 0 20px;
+  }
+
+  .thankyou-container .delivery-date {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffe400;
+  }
+
+  .thankyou-container a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #2575fc;
+    background: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  
+
+
+
+
+
+
+

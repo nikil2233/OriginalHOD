@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlyle.css">
+    <title>Ckeck</title>
+</head>
+<body>
+
+    <h1>Checkout</h1>
+
+  <h2>Your Order</h2>
+  <table id="cart-summary">
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Quantity</th>
+        <th>Total Price</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  
+  <!-- User Details Form -->
+  <h2>Enter Your Details</h2>
+  <form id="checkout-form">
+    <h3>Personal Details</h3>
+    <input type="text" id="name" placeholder="Full Name" required>
+    <input type="email" id="email" placeholder="Email Address" required>
+    <textarea id="address" placeholder="Delivery Address" rows="4" required></textarea>
+
+    <h3>Payment Information</h3>
+    <select id="payment-method" required>
+      <option value="">Select Payment Method</option>
+      <option value="credit-card">Credit Card</option>
+      <option value="paypal">PayPal</option>
+    </select>
+    <input type="text" id="card-number" placeholder="Card Number (if applicable)" required>
+
+    <button type="submit">Pay</button>
+  </form>
+
+  <script src="pharmecy.js"></script>
+    
+</body>
+</html>

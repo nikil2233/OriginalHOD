@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlyle.css">
+    <title>House of Doctors</title>
+    <link rel="icon" type="image/png" href="images/house_of_doctors_2.png" >
+</head>
+
+  <body>
+    <header class="headers">
+        <nav class="navbars">
+            <div class="mainlogos">
+            <img src="images/house_of_doctors_2.png" alt="logo" class="mainlogo">
+        </div>
+            <div class="navlinkss">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="service.html">SERVICES</a></li>
+                    <li><a href="doctors.html">DOCTORS</a></li>
+                    <li><a href="consulting.html">CONSULTING RESERVATION</a></li>
+                    <li><a href="pharmacy.html">PHARMACY</a></li>
+                </ul>
+            </div>
+        </nav>
+      </header>
+
+      <main>
+        <div class="consulting">
+            <h2>Reserve a Doctor Consultation</h2>
+
+            <div class="doctor_option">
+            <h3>Select the Doctor</h3>
+            <select name="doctor" required>
+                <option value="" disabled selected>Select Doctor</option>
+                <option value="dr_smith">Dr. Kamal Perera</option>
+                <option value="dr_jones">Dr. Oshadi Kawushani</option>
+                <option value="dr_taylor">Dr. Dulein Munasinghe</option>
+                <option value="dr_lee">Dr.Micheal</option>
+                <option value="dr_lee">Dr.Bryan Fernando</option>
+                <option value="dr_lee">Dr.Ramiru Nonin</option>
+                <option value="dr_lee">Dr. Charitha</option>
+                <option value="dr_lee">Dr. Cressida Jenessa</option>
+                <option value="dr_lee">Dr.Sukitha Chathuranga</option>
+                <option value="dr_lee">Dr. Methumi Sahansa</option>
+            </select>
+            </div>
+
+            <form action="consulting.html" method="post">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+                <input type="text" name="date" placeholder="Preferred Date" required>
+                <input type="text" name="time" placeholder="Preferred Time" required>
+                <textarea name="notes" placeholder="Tell us about your Situation"></textarea>
+
+                
+
+
+                <!--Payment method selection-->
+
+                <h3>Select Payment Method</h3>
+                <div class="payment-options">
+                    <label>
+                        <input type="radio" name="payment_method" value="credit_card" required>
+                        Credit Card
+                    </label>
+                    <label>
+                        <input type="radio" name="payment_method" value="paypal">
+                        paypal
+                    </label>
+                    <label>
+                        <input type="radio" name="payment_method" value="bank_transfer">
+                        Bank Transfer
+                    </label>
+                </div>
+
+                <!--Payment Details for credit cards-->
+
+                <div class="credit-card-info">
+                    <h4>Credit Card Details</h4>
+                    <input type="text" name="card_number" placeholder="card Number">
+                    <input type="text" name="card_name" placeholder="Name on Card">
+                    <input type="text" name="expiry_date" placeholder="Expiry Date (MM/YY)">
+                    <input type="text" name="cvv" placeholder="CVV">
+                </div>
+
+                <div class="form-button">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+      </main>
+
+
+      <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <h3>The House of Doctors</h3>
+        <p>&copy; 2024 All rights reserved.</p>
+      </div>
+      <div class="footer-nav">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="doctors.html">Doctors</a></li>
+          <li><a href="consulting.html">Consulting Reservation</a></li>
+          <li><a href="pharmacy.html">Pharmacy</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p>Phone: +94 11 1222999</p>
+        <p>Email: info@houseofdoctors.com</p>
+        <p>Address: 123 Main St, City, Country</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
+</html>
